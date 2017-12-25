@@ -12,3 +12,7 @@ print(digits.keys)
 print(digits.images.shape)
 print(digits.data.shape)
 
+# display digit 10
+pyplot.imshow(digits.images[10], cmap=pyplot.cm.gray_r, interpolation='nearest')
+pyplot.show()
+
